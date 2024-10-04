@@ -1,0 +1,11 @@
+:root {
+	--vp-c-accent: #e11d00;
+	--vp-c-accent-bg: var(--vp-c-accent);
+	--vp-c-accent-hover: color-mix(in srgb, var(--vp-c-accent) calc(100% - 10%), black 10%);
+	--vp-c-gutter: var(--vp-c-bg);
+	--search-c-border: var(--vp-c-border) !important;
+}
+
+.sr-only {
+	display: none;
+}
