@@ -5,6 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
 	lang: 'en-US',
+	base: '/x96-reference/',
 
 	title: 'x96 Reference',
 	description: 'Reference of all x96 Assembly instructions and opcodes',
