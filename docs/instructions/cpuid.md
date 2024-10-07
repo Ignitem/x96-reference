@@ -2,9 +2,9 @@
 
 ## Encoding
 
-| Opcode  | Mnemonic | Description                                                                                       |
-|---------|----------|---------------------------------------------------------------------------------------------------|
-| `0F A2` | `cpuid`  | Fetch informations in `rad`, `rbd`, `rcd` and `rdd` about the CPU & features based on `rad` value |
+| Opcode  | Instruction | Description                                                                                       |
+|---------|-------------|---------------------------------------------------------------------------------------------------|
+| `0F A2` | `cpuid`     | Fetch informations in `rad`, `rbd`, `rcd` and `rdd` about the CPU & features based on `rad` value |
 
 ## Result
 
