@@ -18,15 +18,16 @@ Ignitem syntax is based on Intel syntax, and they share many in common so it's r
 	- `ws`: Write the following sedecimbyte(s) (128-bit)
 - Directives aren't preceded by any special character
 - Comments:
-	- Inline comments start with `;`, `//` or `#`
-	- Multi-line comments are surrounded by `;; ... ;;`, `/* ... */` or `#* ... *#`
+	- Inline comments: start with `;` (recommended in Ignitem Syntax), `//` or `#`
+	- Multi-line comments: surrounded by `;; ... ;;` (recommended in Ignitem Syntax), `/* ... */` or `#* ... *#`
+	- Embedded comments: surrounded by `<> ... <>`
 
 ## Major changes
 
 x96 as a modernized version of x86 introduce major changes on the x86 base:
 
 - [New register naming scheme & internal addressing](./registers.md)
-- Comments embedded in machine code
+- [Comments embedded in machine code](./embedded_comments.md)
 - Removed unused and legacy instructions
 - x86 compatibility mode
 - Unified data sizes (from bytes to sedecimbytes)
