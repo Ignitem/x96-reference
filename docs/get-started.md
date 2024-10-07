@@ -24,7 +24,15 @@ Ignitem syntax is based on Intel syntax, and they share many in common so it's r
 ## Major changes
 
 x96 as a modernized version of x86 introduce major changes on the x86 base:
-- 
+
+- [New register naming scheme & internal addressing](./registers.md)
+- Comments embedded in machine code
+- Removed unused and legacy instructions
+- x86 compatibility mode
+- Unified data sizes (from bytes to sedecimbytes)
+- [New operand encodings](./operand_encodings.md)
+
+x96 has also a lot of integration in [`as++`](https://github.com/Ignitem/as++), [`as++repl`](https://github.com/Ignitem/as++repl) and [`x86tox96`](https://github.com/Ignitem/x86tox96).
 
 ## History
 
