@@ -29,7 +29,7 @@ x96 as a modernized version of x86 introduce major changes on the x86 base:
 - [New register naming scheme & internal addressing](./registers.md)
 - [Comments embedded in machine code](./embedded_comments.md)
 - Removed unused and legacy instructions
-- x86 compatibility mode
+- [x86 compatibility mode](./compatibility_mode.md)
 - Unified data sizes (from bytes to sedecimbytes)
 - [New operand encodings](./operand_encodings.md)
 
