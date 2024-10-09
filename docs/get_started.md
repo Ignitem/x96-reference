@@ -22,6 +22,12 @@ Ignitem syntax is based on Intel syntax, and they share many in common so it's r
 	- Multi-line comments: surrounded by `;; ... ;;` (recommended in Ignitem Syntax), `/* ... */` or `#* ... *#`
 	- Embedded comments: surrounded by `<> ... <>`
 
+### Learn x96 Assembly
+
+x96 Assembly is a powerful language that can be used to create a wide variety of programs. It is a low-level language, which means that it gives you a lot of control over the hardware. This can be very useful for creating high-performance programs, but it can also be more difficult to learn than a high-level language.
+
+You can learn more about x96 Assembly in the [x96 Assembly Tutorial](./tutorials/x96_assembly.md).
+
 ## Major changes
 
 x96 as a modernized version of x86 introduce major changes on the x86 base:
