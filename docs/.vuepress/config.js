@@ -14,7 +14,7 @@ export default defineUserConfig({
 		logo: 'https://avatars.githubusercontent.com/u/183313352',
 		docsRepo: 'https://github.com/Ignitem/x96-reference',
 		repo: 'https://github.com/Ignitem/x96-reference',
-		navbar: ['/', '/get-started'],
+		navbar: ['/', '/get_started'],
 	}),
 
 	head: [

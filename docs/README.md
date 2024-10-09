@@ -4,7 +4,7 @@ title: Home
 heroImage: https://avatars.githubusercontent.com/u/183313352
 actions:
   - text: Get Started
-    link: /get-started.html
+    link: /get_-_started.html
     type: primary
 
 features:
