@@ -36,7 +36,7 @@ x96 as a modernized version of x86 introduce major changes on the x86 base:
 - [Comments embedded in machine code](./embedded_comments.md)
 - [Removed unused and legacy instructions](./removed_instructions.md)
 - [x86 compatibility mode](./compatibility_mode.md)
-- Unified data sizes (from bytes to sedecimbytes)
+- [Unified data sizes (from bytes to sedecimbytes)](./data_sizes.md)
 - [New operand encodings](./operand_encodings.md)
 
 x96 has also a lot of integration in [`as++`](https://github.com/Ignitem/aspp), [`as++repl`](https://github.com/Ignitem/aspprepl) and [`x86tox96`](https://github.com/Ignitem/x86tox96).
