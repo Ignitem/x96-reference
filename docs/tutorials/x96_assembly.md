@@ -37,12 +37,33 @@ start:
 To build the executable file, we need first to assemble the assembly code:
 
 ```sh
-as++ main.asm -o main -t x96
+as++ main.asm -o main.o -t x96
 ```
 
 - `as++`: Ignitem's assembler
 - `main.asm`: Our assembly source file
-- `-o main`: The output object file
+- `-o main.o`: The output object file
 - `-t x96`: The output architecture (targer)
 
-Then, 
+Then, we need to link our object file to produce the executable. For that, we'll use `ld`:
+
+```sh
+ld main.o -o main
+```
+
+## Execution
+
+Finaly, on your x96 machine or using a x96 vCPU like `vCPU-Ignitem-Vector-v1`, you can execute the code:
+
+```sh
+./main                        # on x96 machine
+vCPU-Ignitem-Vector-v1 ./main # using a vCPU
+```
+
+And now check if it worked:
+
+```sh
+echo $? # $? = last error code
+```
+
+If everything worked, then it should show our error code in `rbo` (in that case, 70).
