@@ -60,10 +60,10 @@ Finaly, on your x96 machine or using a x96 vCPU like `vCPU-Ignitem-Vector-v1`, y
 vCPU-Ignitem-Vector-v1 ./main # using a vCPU
 ```
 
-And now check if it worked:
+And now to check if it worked:
 
 ```sh
 echo $? # $? = last error code
 ```
 
-If everything worked, then it should show our error code in `rbo` (in that case, 70).
+If everything worked, then it should show our error code in `rbo` (in that case, `70`).
