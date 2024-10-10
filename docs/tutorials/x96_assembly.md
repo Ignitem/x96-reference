@@ -17,7 +17,7 @@ global start
 
 section .text
 start:
-    ; Start of the program (main function in C/C++, ...)
+    ; Start of the program
 ```
 
 Now, let's make a simple Linux exit syscall:
