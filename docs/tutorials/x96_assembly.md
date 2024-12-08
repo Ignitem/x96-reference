@@ -4,7 +4,7 @@
 
 To program in x96 Assembly, you need to use certain tools:
 
-- An Assembler: [`as++`](https://github.com/Ignitem/aspp/)
+- An Assembler: [`as++`](https://github.com/DoorOS-Project/Binutilspp) (part of [Binutils++](https://github.com/DoorOS-Project/Binutilspp))
 - A Linker of your choice ([`ld`](https://www.gnu.org/software/binutils/), [MSVC Linker](https://visualstudio.microsoft.com/fr/downloads/#build-tools-for-visual-studio-2022), ...)
 - A Debugger of your choice ([`gdb`](https://www.gnu.org/software/gdb/), [MSVC Debugger](https://visualstudio.microsoft.com/fr/downloads/#build-tools-for-visual-studio-2022), ...)
 

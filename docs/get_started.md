@@ -39,7 +39,7 @@ x96 as a modernized version of x86 introduce major changes on the x86 base:
 - [Unified data sizes (from bytes to sedecimbytes)](./data_sizes.md)
 - [New operand encodings](./operand_encodings.md)
 
-x96 has also a lot of integration in [`as++`](https://github.com/Ignitem/aspp), [`as++repl`](https://github.com/Ignitem/aspprepl) and [`x86tox96`](https://github.com/Ignitem/x86tox96).
+x96 has also a lot of integration in [`as++`](https://github.com/DoorOS-Project/Binutilspp), [`as++repl`](https://github.com/DoorOS-Project/Binutilspp) (parts of [Binutils++](https://github.com/DoorOS-Project/Binutilspp)) and [`x86tox96`](https://github.com/Ignitem/x86tox96).
 
 ## History
 
