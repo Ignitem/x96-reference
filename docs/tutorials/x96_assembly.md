@@ -5,7 +5,7 @@
 To program in x96 Assembly, you need to use certain tools:
 
 - An Assembler: [`as++`](https://github.com/DoorOS-Project/Binutilspp) (part of [Binutils++](https://github.com/DoorOS-Project/Binutilspp))
-- A Linker of your choice ([`ld`](https://www.gnu.org/software/binutils/), [MSVC Linker](https://visualstudio.microsoft.com/fr/downloads/#build-tools-for-visual-studio-2022), ...)
+- A Linker of your choice ([`ld++`](https://github.com/DoorOS-Project/Binutilspp) part of [Binutils++](https://github.com/DoorOS-Project/Binutilspp), [`ld`](https://www.gnu.org/software/binutils/), [MSVC Linker](https://visualstudio.microsoft.com/fr/downloads/#build-tools-for-visual-studio-2022), ...)
 - A Debugger of your choice ([`gdb`](https://www.gnu.org/software/gdb/), [MSVC Debugger](https://visualstudio.microsoft.com/fr/downloads/#build-tools-for-visual-studio-2022), ...)
 
 ## Setup
@@ -20,14 +20,14 @@ start:
     ; Start of the program
 ```
 
-Now, let's make a simple Linux exit syscall:
+Now, let's make a simple Linux exit system call:
 
 ```ams title="main.asm" {5-7}
 global start
 
 section .text
 start:
-    mov rao, 60 ; Linux exit syscall number
+    mov rao, 60 ; Linux exit system call number
     mov rbo, 70 ; Custom exit code
     syscall     ; Executing the system call
 ```
@@ -43,12 +43,12 @@ as++ main.asm -o main.o -t x96
 - `as++`: Ignitem's assembler
 - `main.asm`: Our assembly source file
 - `-o main.o`: The output object file
-- `-t x96`: The output architecture (targer)
+- `-t x96`: The output architecture (target)
 
-Then, we need to link our object file to produce the executable. For that, we'll use `ld`:
+Then, we need to link our object file to produce the executable. For that, we'll use `ld++`:
 
 ```sh
-ld main.o -o main
+ld++ main.o -o main
 ```
 
 ## Execution
